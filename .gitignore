@@ -12,3 +12,6 @@ wheels/
 # Virtual environments
 .venv
 .env
+
+#Project Folders
+bruno/apis/
