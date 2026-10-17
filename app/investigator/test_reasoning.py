@@ -1,8 +1,8 @@
 import json
 from datetime import datetime
 
-from app.investigator.evidence import collect_evidence
-from app.investigator.reasoning import find_root_cause
+from .evidence import collect_evidence
+from .reasoning import find_root_cause
 
 DESCRIPTION = "Users reported checkout failures and slow responses around 2 PM."
 

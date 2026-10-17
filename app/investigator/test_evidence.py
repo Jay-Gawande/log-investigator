@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 
-from app.investigator.evidence import collect_evidence
+from .evidence import collect_evidence
 
 start = datetime(2026, 10, 1, 0, 0, 0)
 end = datetime(2026, 10, 1, 23, 59, 59)

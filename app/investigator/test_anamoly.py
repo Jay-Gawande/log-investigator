@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from app.investigator.anomaly import find_anomalous_period, minute_counts
+from .anomaly import find_anomalous_period, minute_counts
 
 start = datetime(2026, 10, 1, 0, 0, 0)
 end = datetime(2026, 10, 1, 23, 59, 59)

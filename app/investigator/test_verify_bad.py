@@ -1,7 +1,7 @@
 from datetime import datetime
 
-from app.investigator.evidence import collect_evidence
-from app.investigator.verify import verify
+from .evidence import collect_evidence
+from .verify import verify
 
 ev = collect_evidence(datetime(2026, 10, 1), datetime(2026, 10, 1, 23, 59, 59))
 s, e = ev["period"]["start"], ev["period"]["end"]
