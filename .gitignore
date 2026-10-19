@@ -15,3 +15,4 @@ wheels/
 
 #Project Folders
 bruno/apis/
+.ipynb_checkpoints
