@@ -99,6 +99,77 @@
           }
         }
       }
+    },
+    {
+      "name": "Meta",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "description": "",
+        "url": {
+          "raw": "{{base_url}}/meta",
+          "protocol": "",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "meta"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Logs Overview",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "description": "",
+        "url": {
+          "raw": "{{base_url}}/logs/overview?start=2026-10-01T00:00:00&end=2026-10-01T23:59:59",
+          "protocol": "",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "logs",
+            "overview?start=2026-10-01T00:00:00&end=2026-10-01T23:59:59"
+          ],
+          "query": [
+            {
+              "key": "start",
+              "value": "2026-10-01T00:00:00"
+            },
+            {
+              "key": "end",
+              "value": "2026-10-01T23:59:59"
+            }
+          ],
+          "variable": []
+        }
+      }
+    },
+    {
+      "name": "Follow Requets ID",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "description": "",
+        "url": {
+          "raw": "{{base_url}}/requests/ada0a246-9fed-40c0-b29a-8fe9a2b2c28b",
+          "protocol": "",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "requests",
+            "ada0a246-9fed-40c0-b29a-8fe9a2b2c28b"
+          ],
+          "query": [],
+          "variable": []
+        }
+      }
     }
   ],
   "variable": [
