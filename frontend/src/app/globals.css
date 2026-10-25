@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* dark mode is driven by a "dark" class on <html> (set by the theme toggle) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --animate-fade-in: fadeIn 0.25s ease-out;
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+@layer base {
+  html {
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  /* v4 no longer shows a pointer cursor on buttons by default */
+  button:not(:disabled), [role="button"] {
+    cursor: pointer;
+  }
+}
